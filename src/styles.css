@@ -1,0 +1,71 @@
+h1 {
+  color: #2e8b57;
+  font-family: "Bahnschrift", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #47a44b;
+  font-family: "Bahnschrift", sans-serif;
+  text-align: left;
+  background-color: ;
+}
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #557a3c;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  border: 1px solid #2e8b57;
+  border-radius: 10px;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus {
+  border-color: #2e8b57;
+  outline: none;
+}
+
+button {
+  padding: 7px 14px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: "Bahnschrift", sans-serif;
+}
+
+button:hover {
+  background-color: #47a44b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  font-family: "Bahnschrift", sans-serif;
+}
+
+th,
+td {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #e8f0e7;
+  color: #557a3c;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #e8f0e7;
+}
